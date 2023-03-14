@@ -30,10 +30,10 @@ const About = () => {
         <span>Stay Connected</span>
         <footer className="social-links-container">
           <div className="social-links">
-            <a href="http://github.com/Jegadeesh2" target="_blank" rel="GitHub"> <AiFillGithub className="social-icon"/> </a>
-            <a href="https://www.linkedin.com/in/jegadeesh-waran-s/" target="_blank" rel="LinkedIn"> <AiFillLinkedin className="social-icon"/> </a>
-            <a href="https://www.instagram.com/jegathecoder/" target="_blank" rel="Instagaram"> <AiFillInstagram className="social-icon"/> </a>
-            <a href="https://twitter.com/jega_d_e_e_s_h" target="_blank" rel="twitter"> <AiOutlineTwitter className="social-icon"/> </a>
+            <a href="http://github.com/Jegadeesh2" target="_blank" rel="noreferrer"> <AiFillGithub className="social-icon"/> </a>
+            <a href="https://www.linkedin.com/in/jegadeesh-waran-s/" target="_blank" rel="noreferrer"> <AiFillLinkedin className="social-icon"/> </a>
+            <a href="https://www.instagram.com/jegathecoder/" target="_blank" rel="noreferrer"> <AiFillInstagram className="social-icon"/> </a>
+            <a href="https://twitter.com/jega_d_e_e_s_h" target="_blank" rel="noreferrer"> <AiOutlineTwitter className="social-icon"/> </a>
           </div>
         </footer>
       </div>
