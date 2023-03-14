@@ -19,7 +19,7 @@ const Home = () => {
           /></p>
       </div>
       <div className="home-image">
-        <img src={homePic} alt="Home-Image" className="home-pic"/>
+        <img src={homePic} alt="Developer-Table" className="home-pic"/>
       </div>
     </div>
   )
