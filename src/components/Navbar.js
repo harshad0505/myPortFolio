@@ -8,7 +8,8 @@ const Navbar = () => {
     <>
     <nav>
     <div className="navbar-container">
-      <h1 className='logo'>Jega..</h1>
+    <Link to="/" className='logo-link'>
+      <h1 className='logo'>Jega..</h1></Link>
       <div className='links-container'>
       <Link to="/" className='link'> 
       <AiFillHome className='icons'/> 
@@ -18,7 +19,7 @@ const Navbar = () => {
       <p className='links-title'>About</p></Link>
       <Link to="/projects" className='link'> 
       <AiFillProject className='icons'/> 
-      <p className='links-title'>Projects</p></Link>
+      <p className='links-title project-link'>Projects</p></Link>
       </div>
     </div>
     </nav>
