@@ -5,7 +5,10 @@ import {
   SiCss3,
   SiReact,
   SiNodedotjs,
+  SiMongodb,
+  SiExpress,
 } from "react-icons/si";
+import { DiNpm } from "react-icons/di";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -51,6 +54,18 @@ const About = () => {
           <div className="box">
             {" "}
             <SiNodedotjs className="box-icon" /> NodeJs
+          </div>
+          <div className="box">
+            {" "}
+            <SiMongodb className="box-icon" /> MongoDB
+          </div>
+          <div className="box">
+            {" "}
+            <DiNpm className="box-icon" /> NPM
+          </div>
+          <div className="box">
+            {" "}
+            <SiExpress className="box-icon" /> Express
           </div>
         </div>
         <span>Stay Connected</span>

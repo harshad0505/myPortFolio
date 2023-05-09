@@ -14,10 +14,66 @@ const Projects = () => {
         <div className="single-project">
           <SiReact className="project-logo" />
           <div className="project-description">
-            <span className="project-title">Jega Blogs</span>
+            <span className="project-title">Food Cart</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/JegaBlogs/"
+                href="https://github.com/Jegadeesh2/Food-Cart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="link-btn">
+                  <SiGithub />
+                  Code URL
+                </button>
+              </a>
+              <a
+                href="http://jega-cuisine.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="link-btn">
+                  <SiNetlify />
+                  Live URL
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="single-project">
+          <SiReact className="project-logo" />
+          <div className="project-description">
+            <span className="project-title">Movie Finder</span>
+            <div className="project-link-buttons">
+              <a
+                href="https://github.com/Jegadeesh2/movie-recommendation"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="link-btn">
+                  <SiGithub />
+                  Code URL
+                </button>
+              </a>
+              <a
+                href="https://j-movie-finder.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="link-btn">
+                  <SiNetlify />
+                  Live URL
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="single-project">
+          <SiReact className="project-logo" />
+          <div className="project-description">
+            <span className="project-title">Blog App</span>
+            <div className="project-link-buttons">
+              <a
+                href="https://github.com/Jegadeesh2/Jegablogs"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -36,56 +92,6 @@ const Projects = () => {
                   Live URL
                 </button>
               </a>
-            </div>
-          </div>
-        </div>
-        <div className="single-project">
-          <SiReact className="project-logo" />
-          <div className="project-description">
-            <span className="project-title">Cart</span>
-            <div className="project-link-buttons">
-              <span>I'm working on it...</span>
-              {/* <a
-                href="http://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiGithub />
-                  Code URL
-                </button>
-              </a>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <button className="link-btn">
-                  <SiNetlify />
-                  Live URL
-                </button>
-              </a> */}
-            </div>
-          </div>
-        </div>
-        <div className="single-project">
-          <SiReact className="project-logo" />
-          <div className="project-description">
-            <span className="project-title">Chat Application</span>
-            <div className="project-link-buttons">
-              <span>I'm working on it...</span>
-              {/* <a
-                href="http://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiGithub />
-                  Code URL
-                </button>
-              </a>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <button className="link-btn">
-                  <SiNetlify />
-                  Live URL
-                </button>
-              </a> */}
             </div>
           </div>
         </div>
