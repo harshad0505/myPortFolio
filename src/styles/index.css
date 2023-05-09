@@ -356,7 +356,7 @@ span {
   padding-left: 2rem;
 }
 
-.project-title{
+.project-title {
   width: fit-content;
   font-size: 24px;
   color: var(--white);
@@ -377,21 +377,21 @@ span {
   border-radius: 5px;
   border: 1px solid var(--white);
   background-color: transparent;
-  color:  var(--primary-clr) ;
+  color: var(--primary-clr);
   gap: 5px;
   width: auto;
   font-size: 20px;
   padding: 5px 10px;
 }
 
-.link-btn:hover{
+.link-btn:hover {
   border: 1px solid var(--primary-clr);
 
   background-color: var(--primary-clr);
   color: var(--white);
 }
 
-.link-btn:active{
+.link-btn:active {
   scale: 0.9;
 }
 
@@ -473,7 +473,6 @@ span {
     margin: auto;
     padding: 0;
   }
-  
 }
 
 @media only screen and (max-width: 900px) {
@@ -509,8 +508,8 @@ span {
   .project-description {
     padding: 0;
   }
-  
-  .project-title{
+
+  .project-title {
     width: auto;
     font-size: 20px;
   }
