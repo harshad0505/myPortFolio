@@ -1,5 +1,6 @@
 import React from "react";
-import { SiJavascript, SiReact, SiNetlify, SiGithub } from "react-icons/si";
+import { SiJavascript, SiReact, SiNetlify } from "react-icons/si";
+import { UilGithub,UilBrowser,UilReact,UilPackage ,UilTwitter ,UilInstagram,UilLinkedin ,UilHtml5 ,UilCss3Simple,UilJavaScript} from '@iconscout/react-unicons'
 
 const Projects = () => {
   return (
@@ -17,22 +18,22 @@ const Projects = () => {
             <span className="project-title">Food Cart</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/Food-Cart"
+                href="https://github.com/harshad0505/pizzaShop"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiGithub />
+                  <UilGithub />
                   Code URL
                 </button>
               </a>
               <a
-                href="http://jega-cuisine.netlify.app/"
+                href="https://online0shop.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiNetlify />
+                  <UilBrowser />
                   Live URL
                 </button>
               </a>
@@ -45,22 +46,22 @@ const Projects = () => {
             <span className="project-title">Movie Finder</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/movie-recommendation"
+                href="https://github.com/harshad0505/movie"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiGithub />
+                  <UilGithub />
                   Code URL
                 </button>
               </a>
               <a
-                href="https://j-movie-finder.netlify.app/"
+                href="https://moviedatadb.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiNetlify />
+                  <UilBrowser />
                   Live URL
                 </button>
               </a>
@@ -73,224 +74,125 @@ const Projects = () => {
             <span className="project-title">Blog App</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/Jegablogs"
+                href="https://github.com/harshad0505/BlogApp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiGithub />
+                  <UilGithub />
                   Code URL
                 </button>
               </a>
               <a
-                href="https://j-react-simple-blog-app.netlify.app/"
+                href="https://nyblogs.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiNetlify />
+                  <UilBrowser />
                   Live URL
                 </button>
               </a>
             </div>
           </div>
         </div>
+     
         <div className="single-project">
-          <SiJavascript className="project-logo" />
+          <SiReact className="project-logo" />
           <div className="project-description">
-            <span className="project-title">Tic-Tac-Toe</span>
+            <span className="project-title">Tic Tak</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/Tic-Tac-Teo"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiGithub />
+                  <UilGithub />
                   Code URL
                 </button>
               </a>
               <a
-                href="https://game-tic-tac-teo.netlify.app/"
+                href="https://tictacapp.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiNetlify />
+                  <UilBrowser />
                   Live URL
                 </button>
               </a>
             </div>
           </div>
         </div>
+       
+       
         <div className="single-project">
-          <SiJavascript className="project-logo" />
+          <SiReact className="project-logo" />
           <div className="project-description">
-            <span className="project-title">Drawing Board</span>
+            <span className="project-title">Money Transfer</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/Drawing-Board"
+                href="https://github.com/harshad0505/MoneyTansfer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiGithub />
+                  <UilJavaScript />
                   Code URL
                 </button>
               </a>
               <a
-                href="https://drawing-board-canvas.netlify.app/"
+                href="https://bankappp.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiNetlify />
+                  <UilBrowser />
                   Live URL
                 </button>
               </a>
             </div>
           </div>
         </div>
+
+
+  
         <div className="single-project">
-          <SiJavascript className="project-logo" />
+          <SiReact className="project-logo" />
           <div className="project-description">
-            <span className="project-title">Weather App</span>
+            <span className="project-title">CockTail Api</span>
             <div className="project-link-buttons">
               <a
-                href="https://github.com/Jegadeesh2/Weather-App"
+                href="https://github.com/harshad0505/CocktailApi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiGithub />
+                  <UilJavaScript />
                   Code URL
                 </button>
               </a>
               <a
-                href="https://weather-app-usingapi.netlify.app/"
-                target="_blank"
+                href="#"
                 rel="noopener noreferrer"
               >
                 <button className="link-btn">
-                  <SiNetlify />
+                  <UilBrowser />
                   Live URL
                 </button>
               </a>
             </div>
           </div>
         </div>
-        <div className="single-project">
-          <SiJavascript className="project-logo" />
-          <div className="project-description">
-            <span className="project-title">Kanban Board</span>
-            <div className="project-link-buttons">
-              <a
-                href="https://github.com/Jegadeesh2/Kanban-Board"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiGithub />
-                  Code URL
-                </button>
-              </a>
-              <a
-                href="https://kanban-board-simple.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiNetlify />
-                  Live URL
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="single-project">
-          <SiJavascript className="project-logo" />
-          <div className="project-description">
-            <span className="project-title">Pomodoro Clock</span>
-            <div className="project-link-buttons">
-              <a
-                href="https://github.com/Jegadeesh2/Pomodoro"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiGithub />
-                  Code URL
-                </button>
-              </a>
-              <a
-                href="https://pomodoro-timer-digital.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiNetlify />
-                  Live URL
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="single-project">
-          <SiJavascript className="project-logo" />
-          <div className="project-description">
-            <span className="project-title">Tip Calculator</span>
-            <div className="project-link-buttons">
-              <a
-                href="https://github.com/Jegadeesh2/tip-calculator"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiGithub />
-                  Code URL
-                </button>
-              </a>
-              <a
-                href="https://frontendmentor-tip-calculator.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiNetlify />
-                  Live URL
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="single-project">
-          <SiJavascript className="project-logo" />
-          <div className="project-description">
-            <span className="project-title">Tip Calculator</span>
-            <div className="project-link-buttons">
-              <a
-                href="https://github.com/Jegadeesh2/tip-calculator"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiGithub />
-                  Code URL
-                </button>
-              </a>
-              <a
-                href="https://frontendmentor-tip-calculator.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="link-btn">
-                  <SiNetlify />
-                  Live URL
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+
+
+
+
+
+
+
+
       </section>
     </div>
   );

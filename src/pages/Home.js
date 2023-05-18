@@ -10,15 +10,14 @@ const Home = () => {
           Hi There ! <span className="wave"> 👋 </span>
         </p>
         <p className="name">
-          I'M <span> JEGADEESHWARAN</span>
+          I'M <span> Harshad Chavan</span>
         </p>
         <p className="role">
           {" "}
           <Typewriter
             words={[
               "FRONT END DEVELOPER",
-              "REACT DEVELOPER",
-              "MERN STACK DEVELOPER",
+              "REACT DEVELOPER"
             ]}
             loop={5}
             cursor
@@ -30,7 +29,7 @@ const Home = () => {
         </p>
       </div>
       <div className="home-image">
-        <img src={homePic} alt="Developer-Table" className="home-pic" />
+      <img src={homePic} alt="Developer-Table" className="home-pic" />
       </div>
     </div>
   );
